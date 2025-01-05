@@ -9,7 +9,6 @@ nav:
 
 extra_css: 
   - assets/css/extra.css
-  - assets/css/bootstrap.min.css
 
 # If you use any plugins, list them here
 plugins:
