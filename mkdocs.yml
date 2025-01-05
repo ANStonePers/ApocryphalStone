@@ -5,7 +5,7 @@ theme:
 nav:
   - Home: index.html
   - Bibliography: bibliography.html
-  - Poetry: poetry.html
+  - Links: links.html
   - Contact: contact.html
 
 extra_css: 
