@@ -6,6 +6,7 @@ nav:
   - Home: index.html
   - Bibliography: bibliography.html
   - Poetry: poetry.html
+  - Contact: contact.html
 
 extra_css: 
   - assets/css/extra.css
