@@ -5,7 +5,7 @@ theme:
 nav:
   - Home: index.md
   # Example: Include a static HTML file in the navigation
-  - test: test.md
+  - test: test.html
 
 extra_css: 
   - assets/css/extra.css
