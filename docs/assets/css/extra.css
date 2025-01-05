@@ -8522,7 +8522,7 @@ header div:last-child .navbar .navbar-inner{
 header .header-image{
 	min-height:120px;
 	width: 100%;
-	background-image:url(../images/headercollage1.jpg);	
+	background-image:url(/ApocryphalStone/assets/images/headercollage1.jpg);	
 	background-repeat: no-repeat;
 	 -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
