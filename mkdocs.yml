@@ -1,1 +1,18 @@
-site_name: My Docs
+site_name: Apocryphal Stone
+theme:
+  name: mkdocs
+
+nav:
+  - Home: index.md
+  # Example: Include a static HTML file in the navigation
+  - My Static HTML: test.html
+
+# If you use any plugins, list them here
+plugins:
+  - search
+
+# If you need any specific Markdown extensions, list them here
+markdown_extensions:
+  - toc
+  - fenced_code
+  - tables
