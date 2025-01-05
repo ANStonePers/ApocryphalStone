@@ -3,9 +3,8 @@ theme:
   name: readthedocs
 
 nav:
-  - Home: index.md
-  # Example: Include a static HTML file in the navigation
-  - test: test.html
+  - Home: index.html
+  - Bibliography: bibliography.html
 
 extra_css: 
   - assets/css/extra.css
