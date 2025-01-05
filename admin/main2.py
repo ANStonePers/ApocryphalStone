@@ -6,7 +6,7 @@ headers = {
 }
 
 for i in range(2, 7):
-    u = f"http://apocryphalstone.com/bibliography/index/Bibliograph_page/{i}"
+    u = f"http://apocryphalstone.com/bibliography/index/ajax/yw0/Bibliography_page/{i}"
     c = requests.get(u, headers=headers).content
     d = BeautifulSoup(c, 'html.parser').find("div", {"class": "row-fluid maincontent"})
     s = str(d)
