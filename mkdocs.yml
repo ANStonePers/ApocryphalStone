@@ -7,6 +7,10 @@ nav:
   # Example: Include a static HTML file in the navigation
   - test: test.html
 
+extra_css: 
+  - assets/css/extra.css
+  - assets/css/bootstrap.min.css
+
 # If you use any plugins, list them here
 plugins:
   - search
