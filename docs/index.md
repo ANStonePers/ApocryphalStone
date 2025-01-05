@@ -1,17 +1,34 @@
-# Welcome to MkDocs
+site_name: Adam Stone Digital Portfoio
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+theme: 
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: red
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - content.code.annotate
 
-## Commands
+nav:
+    - Home: index.md
+    - Test: test.html
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+    - search
+    - mermaid2
+    - mkdocs-video
